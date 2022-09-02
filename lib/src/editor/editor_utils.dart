@@ -93,7 +93,7 @@ class EditActionDetails {
       _rotateRadian = 0.0;
     }
 
-    // _cropRect = rotateRect(_cropRect, _cropRect.center, -angle);
+    cropRect = rotateRect(cropRect!, cropRect!.center, -angle);
     // screenDestinationRect =
     //     rotateRect(screenDestinationRect, screenCropRect.center, -angle);
 
